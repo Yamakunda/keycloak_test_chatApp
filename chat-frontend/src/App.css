@@ -1,0 +1,10 @@
+.App { text-align: center; }
+.App-header { background-color: #282c34; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: calc(10px + 2vmin); color: white; }
+button { font-size: 1rem; padding: 0.5rem 1rem; margin: 1rem; cursor: pointer; }
+.chat-container { border: 1px solid #ccc; width: 600px; margin-top: 20px; background-color: #f9f9f9; color: #333; }
+.messages { height: 400px; overflow-y: auto; padding: 10px; text-align: left; }
+.message-form { display: flex; padding: 10px; }
+.message-form input { flex-grow: 1; padding: 8px; }
+.message-form button { padding: 8px 12px; }
+.user-message { margin-bottom: 5px; }
+.system-message { color: #888; font-style: italic; }
